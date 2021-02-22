@@ -16,9 +16,9 @@ def getCreds() :
 	creds['graph_version'] = 'v9.0' # version of the api we are hitting
 	creds['endpoint_base'] = creds['graph_domain'] + creds['graph_version'] + '/' # base endpoint with domain and version
 	creds['debug'] = 'no' # debug mode for api call
-	# creds['page_id'] = 'FB-PAGE-ID' # users page id
-	# creds['instagram_account_id'] = 'INSTAGRAM-BUSINESS-ACCOUNT-ID' # users instagram account id
-	# creds['ig_username'] = 'IG-USERNAME' # ig username
+	creds['page_id'] = '1251475518269484' # users page id
+	creds['instagram_account_id'] = '17841401215412640' # users instagram account id 
+	creds['ig_username'] = 'trackmyspeed' # ig username
 
 	return creds
 
